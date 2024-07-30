@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje de Autodescubrimiento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Color de fondo por defecto */
+            background-image: url('tarot.jpg'); */ /* Descomenta esta línea y agrega la ruta a tu imagen de fondo */
+            margin: 0;
+            padding: 0;
+            color: #333;
+            transition: background-color 1s ease-in-out;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            transition: background-color 1s ease-in-out;
+        }
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 2em;
+            transition: background-color 1s ease-in-out;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #4CAF50;
+            transition: color 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Hola a todos y bienvenidos a "Viaje de Autodescubrimiento"!</h1>
+    </header>
+    <section>
+        <p>Soy un Coach de Vida Holístico, y me apasiona ayudarte a descubrir tu verdadero potencial y a encontrar respuestas a tus preguntas más profundas. En este blog, compartiré contigo mis conocimientos y experiencias utilizando herramientas esotéricas como la astrología, el tarot y la numerología. Estas prácticas ancestrales me permiten ofrecer una guía personalizada y profunda, que va más allá de lo evidente.</p>
+        
+        <h2>Astrología: Explorando Tu Carta Astral</h2>
+        <p>La astrología es una herramienta poderosa que utilizo para comprender las influencias cósmicas en tu vida. A través del análisis de tu carta astral, puedo revelarte tus fortalezas, desafíos y oportunidades. La posición de los planetas en el momento de tu nacimiento nos da una visión única sobre tu personalidad, relaciones y camino de vida. ¡Es como tener un mapa estelar personalizado que te guía en tu viaje!</p>
+        
+        <h2>Tarot: Claridad y Orientación a Través de las Cartas</h2>
+        <p>El tarot es otra herramienta esencial en mi práctica. Las cartas del tarot actúan como un espejo de tu subconsciente, permitiéndote acceder a insights profundos y encontrar soluciones creativas a tus problemas. A través de lecturas detalladas, exploro las energías presentes en tu vida, proporcionando claridad y orientación sobre decisiones importantes y situaciones complejas. Cada carta tiene un mensaje especial para ti, ¡solo necesitas estar abierto a recibirlo!</p>
+        
+        <h2>Numerología: Desentrañando los Patrones de Tu Vida</h2>
+        <p>La numerología nos permite analizar los números que te rodean, como tu fecha de nacimiento y tu nombre, para desentrañar patrones y ciclos que influyen en tu vida. Esta práctica ofrece una comprensión profunda de tu propósito de vida y te ayuda a alinear tus acciones con tu verdadero yo. Los números tienen una vibración especial que puede revelarte mucho sobre tu camino personal y profesional.</p>
+        
+        <h2>Un Enfoque Holístico para Tu Crecimiento Personal</h2>
+        <p>Mi enfoque holístico no solo se centra en resolver problemas inmediatos, sino también en fomentar un crecimiento personal y espiritual continuo. A través de sesiones personalizadas, trabajo contigo para desarrollar estrategias que te permitan alcanzar tus metas, mejorar tus relaciones y vivir una vida más plena y satisfactoria. Juntos, exploraremos las dimensiones visibles e invisibles de tu existencia, creando un camino de autodescubrimiento y empoderamiento personal.</p>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const darkColors = [
+                '#8B0000', '#2F4F4F', '#556B2F', '#8B4513',
+                '#483D8B', '#2E8B57', '#4682B4', '#6A5ACD',
+                '#7B68EE', '#8A2BE2', '#4B0082', '#9932CC'
+            ];
+
+            function getRandomDarkColor() {
+                return darkColors[Math.floor(Math.random() * darkColors.length)];
+            }
+
+            function changeColors() {
+                document.querySelectorAll('h2').forEach(h2 => {
+                    h2.style.color = getRandomDarkColor();
+                });
+            }
+
+            setInterval(changeColors, 3000); // Cambia colores cada 3 segundos
+        });
+    </script>
+</body>
+</html>
