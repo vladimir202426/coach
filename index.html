@@ -5,41 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viaje de Autodescubrimiento</title>
     <link href="https://fonts.googleapis.com/css2?family=Cheddar+Gothic:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9; /* Color de fondo por defecto */
-            background-image: url('tarot.jpg'); /* Descomenta esta línea y agrega la ruta a tu imagen de fondo */
-            margin: 0;
-            padding: 0;
-            color: #333;
-            transition: background-color 1s ease-in-out;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em;
-            text-align: center;
-            transition: background-color 1s ease-in-out;
-        }
-        section {
-            padding: 2em;
-            max-width: 800px;
-            margin: auto;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 2em;
-            transition: background-color 1s ease-in-out;
-        }
-        h1 {
-            font-family: 'Cheddar Gothic', cursive;
-            color: #333;
-        }
-        h2 {
-            color: #4CAF50;
-            transition: color 1s ease-in-out;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -60,27 +26,19 @@
         <h2>Un Enfoque Holístico para Tu Crecimiento Personal</h2>
         <p>Mi enfoque holístico no solo se centra en resolver problemas inmediatos, sino también en fomentar un crecimiento personal y espiritual continuo. A través de sesiones personalizadas, trabajo contigo para desarrollar estrategias que te permitan alcanzar tus metas, mejorar tus relaciones y vivir una vida más plena y satisfactoria. Juntos, exploraremos las dimensiones visibles e invisibles de tu existencia, creando un camino de autodescubrimiento y empoderamiento personal.</p>
     </section>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const darkColors = [
-                '#8B0000', '#2F4F4F', '#556B2F', '#8B4513',
-                '#483D8B', '#2E8B57', '#4682B4', '#6A5ACD',
-                '#7B68EE', '#8A2BE2', '#4B0082', '#9932CC'
-            ];
-
-            function getRandomDarkColor() {
-                return darkColors[Math.floor(Math.random() * darkColors.length)];
-            }
-
-            function changeColors() {
-                document.querySelectorAll('h2').forEach(h2 => {
-                    h2.style.color = getRandomDarkColor();
-                });
-            }
-
-            setInterval(changeColors, 3000); // Cambia colores cada 3 segundos
-        });
-    </script>
+    <footer>
+        <div class="contact-icons">
+            <a href="https://wa.me/929441018" target="_blank">
+                <img src="whatsapp-icon.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.instagram.com/universal_play/" target="_blank">
+                <img src="instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/Anywhere.but.home.lml" target="_blank">
+                <img src="facebook-icon.png" alt="Facebook">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
-
