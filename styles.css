@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Color de fondo por defecto */
+    background-image: url('tarot.jpg'); /* Descomenta esta línea y agrega la ruta a tu imagen de fondo */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    transition: background-color 1s ease-in-out;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    transition: background-color 1s ease-in-out;
+}
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+    transition: background-color 1s ease-in-out;
+}
+h1 {
+    font-family: 'Cheddar Gothic', cursive;
+    color: #333;
+}
+h2 {
+    color: #4CAF50;
+    transition: color 1s ease-in-out;
+}
+footer {
+    text-align: center;
+    margin-top: 2em;
+}
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.contact-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+.contact-icons img:hover {
+    transform: scale(1.1);
+}
